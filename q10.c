@@ -2,7 +2,7 @@
 int main() 
 { 
 int i,j,n,time,sum_wait=0,sum_turnaround=0,smallest; 
-int at[10],bt[10],pt[10],rt[10],remain; //rt = remaining Time 
+int at[10],bt[10],pt[10],rt[10],remain; 
 printf("Enter no of Processes : "); 
 scanf("%d",&n); 
 remain=n; 
